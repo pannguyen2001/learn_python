@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.sh
+GEMINI.md
+.idx
+.gitignore
+*.log
+dev.nix
+.idx
