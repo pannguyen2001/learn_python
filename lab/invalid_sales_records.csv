@@ -1,0 +1,56 @@
+order_id,date,category,region,customer_segment,payment_method,quantity,unit_price,discount_rate,customer_rating,returned,subcategory,total_price,discount_amount,net_sales,shipping_cost,profit_margin,profit,month
+ORD-10001,2025-03-15,Sports,West,Premium,Bank Transfer,5,279.76,0.1,,true,Water Sports,1398.8,139.88,1258.92,0.0,0.2,251.784,2025-03
+ORD-10025,2024-04-22,Clothing,Central,Business,Credit Card,3,49.97,0.05,,false,Men,149.91,7.4955,142.4145,5.94,0.37,52.693365,2024-04
+ORD-10035,2024-09-22,Sports,Central,Business,PayPal,6,337.75,0.15,,false,Winter Sports,2026.5,303.975,1722.525,0.0,0.29,499.53225,2024-09
+ORD-10040,2025-02-14,Home & Kitchen,North,Regular,Cash on Delivery,4,444.22,0.1,,false,Kitchenware,1776.88,177.688,1599.192,0.0,0.28,447.77376,2025-02
+ORD-10082,2024-10-25,Clothing,Central,Premium,Debit Card,1,326.16,0.1,,false,Children,326.16,32.61600000000001,293.544,0.0,0.39,114.48216,2024-10
+ORD-10089,2024-10-05,Sports,South,Regular,Cash on Delivery,8,455.53,0.0,,false,Outdoor,3644.24,0.0,3644.24,0.0,0.34,1239.0416,2024-10
+ORD-10105,2025-01-14,Home & Kitchen,East,Business,Credit Card,6,158.21,0.2,,false,Bedding,949.26,189.852,759.408,0.0,0.32,243.01056,2025-01
+ORD-10112,2025-02-22,Books,East,Business,Credit Card,3,344.44,0.1,,false,Educational,1033.32,103.332,929.9879999999999,,0.39,362.69532,2025-02
+ORD-10117,2024-11-02,Electronics,North,Premium,PayPal,3,68.78,0.2,,false,Accessories,206.34,41.268,165.072,,0.27,44.56944,2024-11
+ORD-10131,2025-03-25,Home & Kitchen,South,Regular,Bank Transfer,3,355.47,0.2,,true,Decor,1066.41,213.282,853.128,,0.38,324.18864,2025-03
+ORD-10137,2024-09-26,Sports,East,Premium,PayPal,4,36.28,,,false,Team Sports,145.12,0.0,145.12,8.82,0.25,36.28,2024-09
+ORD-10154,2024-10-04,Books,Central,Regular,PayPal,6,421.04,0.2,,false,Comics,2526.24,505.248,2020.992,0.0,0.21,424.40832,2024-10
+ORD-10165,2024-07-17,Home & Kitchen,West,Regular,Cash on Delivery,4,342.79,0.05,,false,Decor,1371.16,68.558,1302.602,0.0,0.39,508.01478,2024-07
+ORD-10179,2024-12-15,Sports,Central,Business,PayPal,4,178.6,0.0,,false,Fitness,714.4,0.0,714.4,0.0,0.26,185.744,2024-12
+ORD-10199,2025-01-20,Clothing,West,Premium,PayPal,4,135.76,0.2,,false,Footwear,543.04,108.608,434.432,0.0,0.25,108.608,2025-01
+ORD-10201,2024-07-10,Home & Kitchen,North,Premium,Credit Card,5,261.31,0.2,,false,Decor,1306.55,261.31,1045.24,0.0,0.36,376.2864,2024-07
+ORD-10232,2024-08-22,Clothing,North,Premium,Cash on Delivery,1,36.38,0.0,,false,Accessories,36.38,0.0,36.38,15.58,0.26,9.458800000000002,2024-08
+ORD-10237,2025-02-20,Sports,South,Premium,Credit Card,6,177.21,0.15,,false,Water Sports,1063.26,159.489,903.771,0.0,0.35,316.31985,2025-02
+ORD-10239,2024-12-15,Clothing,West,New,Bank Transfer,7,341.04,0.05,,false,Women,2387.28,119.364,2267.916,0.0,0.21,476.26236,2024-12
+ORD-10260,2025-03-12,Sports,East,Premium,PayPal,8,411.25,0.2,,false,Team Sports,3290.0,658.0,2632.0,0.0,0.29,763.28,2025-03
+ORD-10388,2024-08-21,Electronics,North,Business,Cash on Delivery,3,247.09,0.0,,false,Audio,741.27,0.0,741.27,0.0,0.36,266.8572,2024-08
+ORD-10424,2025-02-05,Home & Kitchen,South,Regular,PayPal,4,288.79,0.05,,false,Bedding,1155.16,57.75800000000001,1097.402,0.0,0.32,351.16864,2025-02
+ORD-10441,2025-02-12,Home & Kitchen,Central,Premium,Cash on Delivery,6,230.67,0.1,,false,Kitchenware,1384.02,138.402,1245.618,0.0,0.3,373.6854,2025-02
+ORD-10451,2024-08-04,Sports,East,Business,Debit Card,2,246.47,0.2,,false,Winter Sports,492.94,98.58800000000001,394.352,0.0,0.24,94.64447999999999,2024-08
+ORD-10459,2024-06-08,Sports,West,Premium,Debit Card,7,267.27,0.05,,false,Team Sports,1870.89,93.5445,1777.3455,0.0,0.38,675.39129,2024-06
+ORD-10512,2025-02-17,Sports,South,Business,Bank Transfer,2,268.52,0.2,,false,Water Sports,537.04,107.408,429.6319999999999,0.0,0.37,158.96384,2025-02
+ORD-10522,2024-12-09,Sports,South,New,Credit Card,6,196.07,0.1,,false,Outdoor,1176.42,117.642,1058.778,0.0,0.26,275.28228,2024-12
+ORD-10542,2024-10-09,Sports,East,New,Credit Card,9,332.57,0.05,,false,Team Sports,2993.13,149.6565,2843.4735,0.0,0.28,796.17258,2024-10
+ORD-10547,2024-07-05,Home & Kitchen,South,Regular,Cash on Delivery,1,467.11,0.1,,false,Kitchenware,467.11,46.71100000000001,420.399,0.0,0.29,121.91571,2024-07
+ORD-10572,2024-12-21,Home & Kitchen,Central,Regular,PayPal,9,257.41,0.2,,false,Furniture,2316.69,463.338,1853.352,0.0,0.38,704.27376,2024-12
+ORD-10588,2024-09-28,Electronics,Central,New,Credit Card,7,293.03,,,false,Laptops,2051.21,307.6815,1743.5285,0.0,0.26,453.3174100000001,2024-09
+ORD-10601,2024-06-15,Sports,Central,Business,Debit Card,1,149.75,0.2,,true,Outdoor,149.75,29.95,119.8,,0.25,29.95,2024-06
+ORD-10622,2024-08-23,Books,West,Premium,Credit Card,6,194.72,0.15,,false,Educational,1168.32,175.248,993.0719999999999,0.0,0.33,327.71376,2024-08
+ORD-10628,2024-06-09,Electronics,South,Regular,PayPal,1,71.8,0.0,,false,Laptops,71.8,0.0,71.8,14.71,0.34,24.412,2024-06
+ORD-10651,2024-10-07,Books,North,Business,Credit Card,6,82.5,0.2,,false,Non-fiction,495.0,99.0,396.0,0.0,0.38,150.48,2024-10
+ORD-10654,2024-07-26,Sports,North,New,Debit Card,6,73.87,0.15,,false,Winter Sports,443.22,66.483,376.737,0.0,0.36,135.62532,2024-07
+ORD-10724,2024-06-04,Sports,West,Business,Cash on Delivery,6,334.06,0.2,,false,Water Sports,2004.36,400.8720000000001,1603.488,0.0,0.34,545.18592,2024-06
+ORD-10751,2024-10-19,Clothing,West,Regular,Bank Transfer,3,486.2,0.05,,false,Women,1458.6,72.92999999999999,1385.67,0.0,0.35,484.9844999999999,2024-10
+ORD-10759,2024-09-20,Home & Kitchen,Central,Premium,Bank Transfer,2,155.95,0.05,,false,Decor,311.9,15.595,296.3049999999999,0.0,0.31,91.85454999999999,2024-09
+ORD-10794,2024-07-07,Sports,East,New,PayPal,1,200.71,0.15,,false,Winter Sports,200.71,30.1065,170.6035,19.22,0.21,35.826735,2024-07
+ORD-10829,2024-07-04,Sports,West,Business,Cash on Delivery,7,54.75,0.15,,false,Water Sports,383.25,57.4875,325.7625,0.0,0.31,100.986375,2024-07
+ORD-10837,2024-09-02,Home & Kitchen,South,Regular,Cash on Delivery,6,369.25,0.0,,false,Kitchenware,2215.5,0.0,2215.5,0.0,0.33,731.115,2024-09
+ORD-10854,2025-03-12,Sports,West,Regular,Debit Card,9,191.78,0.15,,false,Fitness,1726.02,258.903,1467.117,0.0,0.38,557.50446,2025-03
+ORD-10866,2024-11-25,Clothing,West,Premium,Bank Transfer,8,126.76,0.2,,false,Men,1014.08,202.816,811.264,0.0,0.25,202.816,2024-11
+ORD-10867,2024-05-26,Home & Kitchen,West,Business,Credit Card,1,119.95,0.05,,false,Furniture,119.95,5.9975,113.9525,6.19,0.36,41.0229,2024-05
+ORD-10872,2024-05-31,Books,North,Premium,Debit Card,9,260.44,0.15,,false,Fiction,2343.96,351.594,1992.366,0.0,0.37,737.17542,2024-05
+ORD-10904,2024-11-13,Books,East,Business,Cash on Delivery,2,164.66,0.15,,true,Educational,329.32,49.398,279.922,0.0,0.29,81.17738,2024-11
+ORD-10909,2024-10-19,Books,North,Business,Cash on Delivery,3,487.7,0.05,,true,Comics,1463.1,73.155,1389.945,0.0,0.2,277.989,2024-10
+ORD-10912,2024-11-17,Electronics,Central,New,Credit Card,6,292.51,0.0,,false,Smartphones,1755.06,0.0,1755.06,0.0,0.22,386.1132,2024-11
+ORD-10921,2024-06-07,Books,Central,New,Cash on Delivery,6,302.11,0.15,,false,Educational,1812.66,271.899,1540.761,0.0,0.39,600.89679,2024-06
+ORD-10936,2024-04-06,Books,West,Premium,PayPal,6,71.57,0.15,,false,Educational,429.42,64.413,365.0069999999999,0.0,0.27,98.55188999999999,2024-04
+ORD-10942,2025-03-31,Clothing,Central,Business,Bank Transfer,6,116.55,0.15,,false,Accessories,699.3,104.895,594.405,0.0,0.33,196.15365,2025-03
+ORD-10957,2025-02-05,Books,Central,New,Cash on Delivery,5,346.74,0.15,,true,Comics,1733.7,260.055,1473.645,0.0,0.21,309.46545,2025-02
+ORD-10976,2024-10-11,Electronics,West,Regular,Debit Card,7,458.4,0.1,,true,Audio,3208.8,320.88,2887.92,0.0,0.21,606.4631999999999,2024-10
+ORD-10979,2024-04-26,Electronics,East,Regular,Credit Card,6,288.45,0.1,,false,Laptops,1730.7,173.07,1557.63,0.0,0.21,327.1023,2024-04
