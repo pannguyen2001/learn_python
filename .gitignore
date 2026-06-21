@@ -7,3 +7,6 @@ GEMINI.md
 *.log
 dev.nix
 .idx
+*.parquet
+*.docx
+*.xlsx
