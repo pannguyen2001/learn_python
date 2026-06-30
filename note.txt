@@ -1,3 +1,102 @@
 Learn sth new in python
 
 JetBrains Mono, Menlo, Monaco, Courier New, monospace
+
+
+
+
+Design and storage common function for all of my project.
+Should update frequently and better day by day.
+From 2025-10-19
+
+
+Logging
+Debugging
+Profiling
+
+=> a package have them all for using in many project/ function
+=> debug fast, easy
+=> know time executing, memory cost and complexity
+=> beautiful/ easy to read output logger
+
+First, log for debug
+Second, log as json file and can transfer to using
+
+Log need:
+Level
+Time
+File executing
+Line executing
+Message with beautiful format, clear variable, value and error
+Can log to file and std
+Have color when log to terminal
+Easy to track
+
+
+
+
+Web to log
+Bugfender
+Sentry
+
+--------------
+
+Joblib:
+parrallel executing
+
+---------------
+
+pyOD:
+detect outlier lib
+
+
+https://subashpalvel.medium.com/15-must-know-python-libraries-to-supercharge-your-project-164b03a7d8e8
+
+---------------
+asyncio
+
+multiple processing
+
+thread
+
+concurency
+
+
+Test loguru, rich, snoop
+Create logger package can use for both logging and debugging, 1st priority is : each line in debug, important info in prodduct
+
+loguru trace loguru ecception,...
+
+
+Create profiling pagkage
+Show: CPU, memory, time, complexity, size variable
+
+Warning if data is over memory, chunk data
+
+
+--------------------------------------------------------------
+
+source /home/user/datacrawling/.venv/bin/activate
+
+# Data crawling
+- Public google driver -> Done
+- Private GG Driver
+- Kaggle dataset -> Done
+- Hugging Face dataset
+- Website -> craw
+- API
+- SQL
+
+
+- Crawl data using:
+    - Selenium
+    - Playwright
+    - Scrapy: https://www.scrapy.org/
+    - Beautyful Soup (BS4)
+    - request
+    - Crawlee: https://github.com/apify/crawlee-python - https://crawlee.dev/python/docs/quick-start
+
+- Crawl web:
+    - Dynamic web page
+    - Infiniti scrolling
+    - Dynamic table

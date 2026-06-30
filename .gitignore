@@ -10,3 +10,4 @@ dev.nix
 *.parquet
 *.docx
 *.xlsx
+.env
