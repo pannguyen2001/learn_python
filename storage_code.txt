@@ -1,0 +1,147 @@
+# import traceback
+
+# @logger_wrapper
+# def test():
+#     1/0
+
+# test()
+
+# import sys
+# from loguru import logger
+# from rich.console import Console
+# from rich.traceback import install
+
+# # Rich for colorized tracebacks
+# install()
+# console = Console()
+
+# # Loguru for structured logs
+# # logger.add("debug_pipeline.log", level="DEBUG", rotation="1 week")
+# logger.remove()
+# logger.add(sys.stdout, level="INFO")  # for prod
+# logger.add("./log/debug.log", level="DEBUG")  # for dev
+
+# @logger.catch
+# def process_data():
+#     console.log("[cyan]Starting data processing...[/cyan]")
+#     x = 10 / 0  # will trigger loguru exception
+#     logger.debug(f"Data processed: {x}")
+
+# if __name__ == "__main__":
+#     process_data()
+
+
+# """
+# Debug Logging Setup Template for Data Pipelines
+# ------------------------------------------------
+# ✅ Use this for local development or debugging stages.
+# ✅ Combines Loguru (structured logging) + Rich (beautiful tracebacks).
+# ✅ Easily switch between console and file logging.
+# """
+
+# from loguru import logger
+# from rich.console import Console
+# from rich.traceback import install
+# import sys
+# import os
+# from datetime import datetime
+
+# # === 1. Setup Rich ===
+# install(show_locals=True)  # Pretty tracebacks with local vars
+# console = Console()
+
+# # === 2. Log Directory ===
+# LOG_DIR = "log"
+# os.makedirs(LOG_DIR, exist_ok=True)
+
+# # === 3. Configure Loguru ===
+# LOG_FILE = os.path.join(LOG_DIR, f"pipeline_debug_{datetime.now():%Y%m%d}.log")
+
+# logger.remove()  # Remove default handler
+# logger.add(
+#     sys.stdout,
+#     colorize=True,
+#     level="DEBUG",
+#     format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | "
+#            "<level>{level: <8}</level> | "
+#            "<cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - "
+#            "<level>{message}</level>"
+# )
+# logger.add(
+#     LOG_FILE,
+#     rotation="1 week",
+#     retention="1 month",
+#     level="DEBUG",
+#     enqueue=True,
+#     format="{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {name}:{function}:{line} - {message}"
+# )
+
+# # === 4. Example Usage ===
+# @logger.catch
+# def example_pipeline_step():
+#     console.rule("[bold green]Example Pipeline Step[/bold green]")
+#     logger.debug("Starting pipeline step...")
+#     try:
+#         # Simulated debug context
+#         data = [1, 2, 3]
+#         result = sum(data) / 0  # <-- Will trigger exception
+#         logger.info(f"Result computed successfully: {result}")
+#     except Exception as e:
+#         logger.exception("Error during pipeline step execution")
+#         raise
+
+# if __name__ == "__main__":
+#     logger.info("=== Pipeline Debug Session Started ===")
+#     example_pipeline_step()
+#     logger.info("=== Debug Session Complete ===")
+
+
+# """
+# Hybrid Debug Setup — Loguru + Snoop
+# -----------------------------------
+# Use this for debugging complex data pipeline steps.
+# - Loguru handles structured, colored logs and error tracking
+# - Snoop traces line-by-line execution and variable values
+# """
+
+# from loguru import logger
+# import snoop
+# import sys
+
+# # === Configure Loguru ===
+# logger.remove()
+# logger.add(sys.stdout, colorize=True, level="DEBUG",
+#            format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | "
+#                   "<level>{level: <8}</level> | "
+#                   "<cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - "
+#                   "<level>{message}</level>")
+
+# logger.add("pipeline_debug.log", rotation="1 week", retention="1 month", level="DEBUG")
+
+# # === Configure Snoop ===
+# # Redirect snoop’s trace output to loguru (instead of cluttering stdout)
+# snoop.install(out=logger.debug)
+
+# @snoop.snoop(watch_explode=('len(data)', 'sum(data)', 'min(data)', 'max(data)'))
+# def compute_statistics(data):
+#     """Example pipeline step: computes simple metrics from input data"""
+#     logger.debug("Starting compute_statistics()")
+#     total = sum(data)
+#     count = len(data)
+#     mean = total / count
+#     logger.info(f"Computed mean: {mean}")
+#     return {"mean": mean, "count": count, "total": total}
+
+# @logger.catch
+# def main():
+#     logger.info("=== Pipeline Debug Session Started ===")
+#     data = [10, 20, 30, 40, 50]
+#     result = compute_statistics(data)
+#     logger.success(f"Pipeline step complete: {result}")
+#     logger.info("=== Debug Session Ended ===")
+
+# if __name__ == "__main__":
+#     main()
+
+
+
