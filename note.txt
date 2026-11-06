@@ -100,3 +100,63 @@ source /home/user/datacrawling/.venv/bin/activate
     - Dynamic web page
     - Infiniti scrolling
     - Dynamic table
+
+
+python visualizer
+Python Execution Visualizer
+https://cscircles.cemc.uwaterloo.ca/visualize#mode=edit
+
+
+profile function python
+https://stackoverflow.com/questions/3927628/how-can-i-profile-python-code-line-by-line
+https://kernprof.readthedocs.io/en/latest/#line-profiler-basic-usage
+https://github.com/pyutils/line_profiler#quick-start
+https://github.com/plasma-umass/scalene 
+https://github.com/joerick/pyinstrument 
+https://kernprof.readthedocs.io/en/latest/#line-profiler-basic-usage 
+https://stackoverflow.com/questions/3045556/how-to-profile-my-code 
+https://rse.shef.ac.uk/pando-python/profiling-functions.html
+Profiler Powered by Scalene: vscode extension -> Profiler: Profile Current File
+scalene
+snakeviz
+cProfiler
+line_profiler
+https://www.freecodecamp.org/news/how-to-use-pythons-built-in-profiling-tools-examples-and-best-practices/ 
+https://oneuptime.com/blog/post/2025-01-06-profile-python-cprofile-pyspy/view 
+https://compenv.phys.ethz.ch/python/ecosystem_4/30_profiling/ 
+https://researchcomputing.princeton.edu/python-profiling 
+https://rse.shef.ac.uk/pando-python/profiling-introduction.html 
+https://daily.dev/blog/top-7-python-profiling-tools-for-performance/ 
+https://realpython.com/python-profiling/ 
+https://cerfacs.fr/coop/python-profiling 
+
+
+write code -> snopp to check step run -> profile vs selene vs tracemalloc vs line_profiler to trace line time processing, memory cost
+
+
+
+------------
+
+now i want to make a simple draft workflow, that contain basic flow for from extract excel file to parquet, load it into brozen, data validation , processing and agg, cleaning, storage to silver and to golden, connect to cloud and log, observer. Just minimal version, no multiple threading, no huge amount of data. I want to easy step by step and easy to know flow and which i want to do. Help me list all task i need to do, research i need to learn, video or paper i need to research, easpecially find about 5 similar project or product on website, github or any where for me to refer and sort it as form easy to hard. I want to build the minimal version to know general before go deeper. And list all knowledge, skill, tool, mindset i need to learn and do, if it related o other necessary aspect, for example, testing, security, web,... list all for me in each step 
+
+https://claude.ai/chat/e0c33bcb-65cd-4af6-881a-f89f6614f713
+https://chatgpt.com/c/6ae97bf5-1964-83ec-a0c7-1bc2384c381d 
+
+
+some references:
+https://blog.dataengineerthings.org/how-to-build-a-medallion-architecture-locally-with-dbt-and-duckdb-e8e5e9270a72?sk=b71d0413d2696e8032de5f0aeed5d58d
+https://vutr.substack.com/p/free-9-technologies-that-changed?r=2rj6sg&utm_campaign=post&utm_medium=web 
+https://vutr.substack.com/p/free-a-file-format-claims-to-be-100x?r=2rj6sg&utm_campaign=post&utm_medium=web 
+https://lance.org/format/ 
+https://levelup.gitconnected.com/8-data-pipeline-patterns-exist-most-engineers-only-know-3-ad646f3b3257?sk=7cb01bc7867bb6cd0c957ae9323493ec 
+https://code.likeagirl.io/how-to-become-an-ai-engineer-in-2026-the-complete-learning-roadmap-d21e5748a0aa?sk=9c05bf5ba27cc53294520790c61299d1 
+https://medium.com/towards-data-engineering/6-sql-concepts-every-data-engineer-should-know-ed11f1b9fae0 
+https://www.youtube.com/watch?v=tC-4ixYDTn4 
+
+
+
+pentest
+sercurity
+performace testing
+AI 
+NLP 
