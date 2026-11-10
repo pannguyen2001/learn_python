@@ -160,3 +160,8 @@ sercurity
 performace testing
 AI 
 NLP 
+
+
+Ask I to show plan doing, step by step, check list, to md fileask for plan.md, log.md, tracking history md.
+explain detail line by line, step by step, give example, for newbie,
+restrict floow rule, input and output need reach of each step, and guide step by step to reach it, added link research, self check and verify, cross check with other ai, human
